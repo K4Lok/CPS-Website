@@ -5,14 +5,12 @@ import EventCards from "./EventCards"
 export default function Events({events}) {
   const motions = {
     hidden: {
-      y: 400,
       opacity: 0
     },
     visible: {
-      y: 0,
       opacity: 1,
       transition: {
-        duration: 0.4,
+        duration: 1,
       }
     },
   }
